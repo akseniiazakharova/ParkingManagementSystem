@@ -1,30 +1,38 @@
-# Parking Management System 🚗
+# Java & SQL Learning Projects 👩‍💻
 
-A professional Java console application for managing a multi-floor parking garage. This project demonstrates core Object-Oriented Programming (OOP) principles like inheritance, encapsulation, and abstraction.
+This repository contains my practice projects and exercises as I prepare for an apprenticeship (Auszubildende) as a Fachinformatikerin für Anwendungsentwicklung.
 
-## 🌟 Key Features
-* **Multi-floor Management:** Supports any number of floors and slots.
-* **Smart Parking:** Automatically finds and assigns the first available parking spot.
-* **Search Functionality:** Quickly locate any vehicle using its license plate.
-* **Real-time Status:** Track available free slots across the entire facility.
-* **Interactive Console UI:** Simple and intuitive menu for user interaction.
+## 1. Parking System (Java)
+A console-based application to manage a parking garage. I built this to practice Object-Oriented Programming (OOP) in Java.
 
-## 🛠 Technologies Used
-* **Languages:** Java SE, SQL
-* **Concepts:** OOP (Inheritance, Polymorphism), Relational Databases (JOINs, Aggregations)
-* **Tools:** Eclipse IDE, Git & Terminal
+**What I practiced here:**
+* **Inheritance:** Using an abstract `Vehicle` class for different car types.
+* **Logic:** Creating a system to find free slots, park cars, and search by license plate.
+* **Data Structures:** Using lists to manage floors and parking spaces.
 
-## 📂 Project Structure
-* `Vehicle.java` — Abstract base class for all vehicle types.
-* `Car.java` — Specific implementation of a vehicle.
-* `Garage.java` — Core logic for managing floors and parking/removing cars.
-* `Main.java` — Entry point with the user interface logic.
+**Project files:**
+* `Vehicle.java` & `Car.java` — basic classes for vehicles.
+* `Garage.java` — the main logic for the parking garage.
+* `Main.java` — where the program runs.
 
-## 📊 Additional Exercises
-In this repository, I have also included a file `sql_exercises.sql` with complex SQL queries (JOINs, GROUP BY, HAVING). These exercises demonstrate my ability to work with relational databases and analyze data structures.
+---
+
+## 2. SQL Database Exercises
+I have also included a file called `sql_exercises.sql`. These are tasks I completed to learn how to work with relational databases.
+
+**Topics covered:**
+* Joining tables (**JOIN**).
+* Grouping data (**GROUP BY** & **HAVING**).
+* Calculating values (**AVG**, **COUNT**, **MAX**).
+
+---
+
+## 🛠 My Tools
+* **IDE:** Eclipse
+* **Version Control:** Git & Terminal
+* **Languages:** Java, SQL
 
 ## 🚀 How to Run
-1. Clone the repository:
+1. Copy the code to your computer:
    ```bash
    git clone [https://github.com/akseniiazakharova/ParkingManagementSystem.git](https://github.com/akseniiazakharova/ParkingManagementSystem.git)
-   
