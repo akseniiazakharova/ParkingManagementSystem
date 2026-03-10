@@ -10,8 +10,8 @@ A professional Java console application for managing a multi-floor parking garag
 * **Interactive Console UI:** Simple and intuitive menu for user interaction.
 
 ## 🛠 Technologies Used
-* **Language:** Java SE
-* **Concepts:** OOP (Inheritance, Abstract Classes, Lists, Polymorphism)
+* **Languages:** Java SE, SQL
+* **Concepts:** OOP (Inheritance, Polymorphism), Relational Databases (JOINs, Aggregations)
 * **Tools:** Eclipse IDE, Git & Terminal
 
 ## 📂 Project Structure
@@ -20,7 +20,11 @@ A professional Java console application for managing a multi-floor parking garag
 * `Garage.java` — Core logic for managing floors and parking/removing cars.
 * `Main.java` — Entry point with the user interface logic.
 
+## 📊 Additional Exercises
+In this repository, I have also included a file `sql_exercises.sql` with complex SQL queries (JOINs, GROUP BY, HAVING). These exercises demonstrate my ability to work with relational databases and analyze data structures.
+
 ## 🚀 How to Run
 1. Clone the repository:
    ```bash
    git clone [https://github.com/akseniiazakharova/ParkingManagementSystem.git](https://github.com/akseniiazakharova/ParkingManagementSystem.git)
+   
